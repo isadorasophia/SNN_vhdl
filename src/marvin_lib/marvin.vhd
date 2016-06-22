@@ -1,5 +1,26 @@
-LIBRARY ieee;
-USE ieee.std_logic_1164.ALL;
+-------------------------------------------------------------------------------
+-- Title      : Marvin
+-- Project    : SNN
+-------------------------------------------------------------------------------
+-- File       : marvin.vhd
+-- Author     : Isadora Sophia e Matheus Diamantino
+-- Company    : Unicamp!
+-- Created    : 2016-06-11
+-- Last update: 2016-06-11
+-- Platform   : Cyclone II
+-- Standard   : VHDL'2008
+-------------------------------------------------------------------------------
+-- Description: Controller component, makes sure user input, feedforward and backpropagation are talking to each other properly.
+-------------------------------------------------------------------------------
+-- Copyright (c) 2016 
+-------------------------------------------------------------------------------
+-- Revisions  :
+-- Date        Version  Author  							Description
+-- 2016-06-11  0.1      Isadora Sophia e Matheus Diamantino	Created
+-------------------------------------------------------------------------------
+
+library ieee;
+use ieee.std_logic_1164.ALL;
 use ieee.numeric_std.all;
 
 library work;
